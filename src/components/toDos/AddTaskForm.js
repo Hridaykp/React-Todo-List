@@ -12,6 +12,8 @@ const AddTaskForm = (props) => {
                         onChange={(e) => props.setNewTask(e.target.value)}
                         className="form-control form-control-lg"
                         type="text"
+                        placeholder="Add task in to-do list"
+                        style={{fontStyle:"italic", boxShadow:"2px 2px 1px 1px grey"}}
                     />
                 </div>
                 <div className="col-auto">
@@ -21,6 +23,7 @@ const AddTaskForm = (props) => {
                         style={{fontSize:33, marginTop:2,fontWeight:700,
                             borderRadius:10,backgroundColor:"lightgreen",
                             boxShadow: 'rgb(38, 57, 77) 10px 20px 30px -15px',
+                            
                             }}
                         >
                         

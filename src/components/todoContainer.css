@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,500;1,700;1,800&display=swap');
-.App{
-    text-align: center;
-    color: #fff;
-}
+
 .container{
     max-width: 500px;
 }
@@ -15,6 +12,8 @@
      margin-bottom: 15px;
      text-align: left;
      font-size: 22px;
+     margin-left: 6.5%;
+     width: 70%;
      position: relative;
      box-shadow: 4px 3px 4px 2px rgb(70, 69, 69);
      padding: 10px 140px 10px 15px;
@@ -47,7 +46,7 @@
 .taskBg .done .taskText{
       text-decoration:solid;
       opacity: 0.9;
-      color: rgb(180, 36, 26);
+      color: rgb(122, 18, 11);
       font-style: italic;
 }
 
